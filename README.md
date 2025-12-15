@@ -46,3 +46,17 @@ The code interacts directly with the MCU registers for low-level control:
     * Checks for Overload before closing.
 
 ## 📂 File Structure
+├── include/
+│   └── C8051F020.h      # Register/bit definitions for the C8051F020 MCU
+├── src/
+│   └── elevatorsystem.c # Main application logic, ISRs, and scheduler
+├── docs/
+│   └── Elevator.pdf     # Project documentation and schematics
+└── README.md            # This file
+
+## 👨‍💻 Skills Demonstrated
+* **Embedded C Programming.**
+* **Interrupt Service Routines (ISR) handling.**
+* **Sensor Fusion (IR + Switches).**
+* **State Machine Implementation.**
+* **Algorithmic Logic Design.**
